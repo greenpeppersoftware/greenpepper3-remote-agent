@@ -40,9 +40,8 @@
 	</build>
 	
 	<scm>
-		<connection>scm:svn:https://www.pyxis-tech.ca/svn/GreenPepperRepos/remote-agent</connection>
-		<developerConnection>scm:svn:https://www.pyxis-tech.ca/svn/GreenPepperRepos/remote-agent/trunk</developerConnection>
-		<url>https://www.pyxis-tech.ca/fisheye/viewrep/GreenPepper/remote-agent</url>
+		<connection>https://github.com/greenpeppersoftware/remote-agent.git</connection>
+		<url>https://github.com/greenpeppersoftware/remote-agent</url>
 	</scm>
 	
 	<dependencies>
