@@ -53,6 +53,12 @@ public class AgentTest extends TestCase
 	{
 		Agent.shutdown();
 		fakeServer.shutdown();
+		//Really not proud of that code. Had to put a 5 seconds delay to avoid JVM_bind exception. Anyone has a better idea?
+		try {
+			Thread.sleep(5000);
+		} catch(InterruptedException ex) {
+			Thread.currentThread().interrupt();
+		}
 	}
 	
 	@SuppressWarnings("unchecked")
